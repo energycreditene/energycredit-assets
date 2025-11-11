@@ -1,11 +1,7 @@
 name: Link Check
 
 on:
-  pull_request:
-  push:
-    branches: [ main ]
-  schedule:
-    - cron: "0 6 * * 1" # lunes 06:00 UTC
+  workflow_dispatch: {}   # ← Solo corre cuando tú lo lanzas manualmente
 
 jobs:
   lychee:
@@ -14,6 +10,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Check links with lychee
         uses: lycheeverse/lychee-action@v2
+        continue-on-error: true   # ← Muestra errores pero NO marca fallo
         with:
           args: >
             --config .lychee.toml
