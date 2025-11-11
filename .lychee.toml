@@ -1,0 +1,21 @@
+# .lychee.toml — Config for link checker
+
+# Dominios que suelen bloquear bots o tardan (evita falsos negativos)
+exclude = [
+  "https://x.com/*",
+  "https://twitter.com/*",
+  "https://instagram.com/*",
+  "https://www.instagram.com/*",
+  "https://app.uniswap.org/*",
+  "https://etherscan.io/*"
+]
+
+# Aumenta tolerancia
+timeout = 30
+max_concurrency = 5
+
+# Acepta redirecciones y respuestas comunes
+accept = [200, 203, 206, 301, 302, 307, 308, 429]
+
+# User-Agent más “realista”
+user_agent = "Mozilla/5.0 (compatible; ENE-LinkCheck/1.0; +https://energycredit.pro)"
