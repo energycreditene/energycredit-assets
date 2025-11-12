@@ -99,7 +99,10 @@ Security reports: **security@energycredit.pro**
 - 🐦 X (Twitter): [@EnergyCreditENE](https://x.com/EnergyCreditENE)  
 - 📸 Instagram: [@energycreditene](https://www.instagram.com/energycreditene/)  
 - 🧠 GitHub: [energycreditene](https://github.com/energycreditene)
+---
 
+### Vendors & RFPs
+All current opportunities live here → https://github.com/energycreditene/hiring
 ---
 
 ## ⚠️ Disclaimer
